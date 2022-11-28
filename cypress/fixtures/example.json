@@ -1,0 +1,41 @@
+{
+  "rows":[
+  {
+  "name": "Akshaya",
+  "email":"akshayclk1@gmail.com",
+  "password":"Akshay@123",
+  "Gender":"Female",
+  "DOB":"1986-02-01"
+  },
+  {
+  "name":"Manoj",
+  "email":"manoj12@gmail.com",
+  "password":"manoj@123",
+  "Gender":"Male",
+  "DOB":"1987-02-10"
+  },
+  {
+  "name":"tejas",
+  "email":"tejas12@gmail.com",
+  "password":"tejas@1234",
+  "Gender":"Male",
+  "DOB":"1985-02-05"
+  },
+  {
+  "name":"preeti",
+  "email":"preeti123@gmail.com",
+  "password":"preeti@445",
+  "Gender":"Female",
+  "DOB":"1985-03-08"
+  },
+  {
+  "name":"chaitra",
+  "email":"chaitra12@gmail.com",
+  "password":"chaitra@444",
+  "Gender":"Female",
+  "DOB":"1986-05-07"
+  }
+]
+}
+
+

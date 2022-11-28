@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "name": "Akshay",
+      "email": "akshay12@gmail.com",
+      "password": "Akshay@413",
+      "gender": "Male",
+      "Dob": "2011-01-02"
+    },
+    {
+      "name": "manoj",
+      "email": "manoj1234@gmail.com",
+      "password": "Manoj@314",
+      "gender": "Male",
+      "Dob": "2010-01-02"
+    },
+    {
+      "name": "tejas",
+      "email": "tejas312@gmail.com",
+      "password": "tejas@123",
+      "gender": "Male",
+      "Dob": "2100-01-02"
+    },
+    {
+      "name": "preeti",
+      "email": "preeti12@gmail.com",
+      "password": "preeti123",
+      "gender": "Female",
+      "Dob": "2001-01-02"
+    },
+    {
+      "name": "chaitra",
+      "email": "chaitra123@gmail.com",
+      "password": "chaitra142",
+      "gender": "Female",
+      "Dob": "2010-01-02"
+    }
+  ]
+}

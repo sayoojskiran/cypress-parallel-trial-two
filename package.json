@@ -1,0 +1,33 @@
+{
+  "name": "demo-of-ddt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec 'cypress/Integration/Example/*.js'",
+    "test-run": "npm install cypress && cypress run test",
+    "cy:run": "cypress run",
+    "cy:parallel": "cypress-parallel -s cy:run -t 4 -d 'cypress/Integration/Example/*.js'",
+    "test-parallel-run": "npm install cypress && cypress run cy:parallel",
+    "test-one": "cypress run '--parallel' '--group' '2x-chrome' --spec 'cypress/Integration/Example/*.js'",
+    "delete:reportFolder": "rd /s mochawesome-report/",
+    "test:cli": "npm run delete:reportFolder && cy:parallel",
+    "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
+    "create:html:report": "npm run merge:reports && marge --reportDir TestReport cypress-combined-report.json"
+  },
+  "author": "Akshay",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "convert-csv-to-json": "^1.3.3",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "xlsx": "^0.18.5"
+  }
+}
