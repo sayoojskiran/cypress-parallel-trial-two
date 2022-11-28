@@ -7,7 +7,7 @@
     "test": "cypress run --spec 'cypress/Integration/Example/*.js'",
     "test-run": "npm install cypress && cypress run test",
     "cy:run": "cypress run",
-    "cy:parallel": "cypress-parallel -s cy:run -t 4 -d 'cypress/Integration/Example/*.js'",
+    "cy:parallel": "cypress-parallel -s cy:run -t 4 -d 'cypress/Integration/Example/*.js' -a '\"--browser chrome\"'",
     "test-parallel-run": "npm install cypress && cypress run cy:parallel",
     "test-one": "cypress run '--parallel' '--group' '2x-chrome' --spec 'cypress/Integration/Example/*.js'",
     "delete:reportFolder": "rd /s mochawesome-report/",
